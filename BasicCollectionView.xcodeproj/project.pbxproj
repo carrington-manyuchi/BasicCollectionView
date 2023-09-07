@@ -12,6 +12,7 @@
 		8C99DE5C2AA9D039009381AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C99DE5B2AA9D039009381AF /* ViewController.swift */; };
 		8C99DE612AA9D03B009381AF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C99DE602AA9D03B009381AF /* Assets.xcassets */; };
 		8C99DE642AA9D03B009381AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C99DE622AA9D03B009381AF /* LaunchScreen.storyboard */; };
+		8C99DE6C2AA9D7E1009381AF /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C99DE6B2AA9D7E1009381AF /* CustomCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8C99DE602AA9D03B009381AF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8C99DE632AA9D03B009381AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8C99DE652AA9D03B009381AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C99DE6B2AA9D7E1009381AF /* CustomCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				8C99DE572AA9D039009381AF /* AppDelegate.swift */,
 				8C99DE592AA9D039009381AF /* SceneDelegate.swift */,
 				8C99DE5B2AA9D039009381AF /* ViewController.swift */,
+				8C99DE6B2AA9D7E1009381AF /* CustomCell.swift */,
 				8C99DE602AA9D03B009381AF /* Assets.xcassets */,
 				8C99DE622AA9D03B009381AF /* LaunchScreen.storyboard */,
 				8C99DE652AA9D03B009381AF /* Info.plist */,
@@ -136,6 +139,7 @@
 			files = (
 				8C99DE5C2AA9D039009381AF /* ViewController.swift in Sources */,
 				8C99DE582AA9D039009381AF /* AppDelegate.swift in Sources */,
+				8C99DE6C2AA9D7E1009381AF /* CustomCell.swift in Sources */,
 				8C99DE5A2AA9D039009381AF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
