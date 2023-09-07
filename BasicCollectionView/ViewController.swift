@@ -8,12 +8,37 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    let images = [
+        UIImage(systemName: "square.and.arrow.up"),
+        UIImage(systemName: "square.and.arrow.up.fill"),
+        UIImage(systemName: "pencil.circle.fill"),
+        UIImage(systemName: "eraser.fill"),
+        UIImage(systemName: "trash.circle"),
+        UIImage(systemName: "person.circle")
+    ]
+    
+    
+    private let collection
+    
+    
+    
+    
+    
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        view.backgroundColor = .systemBackground
+        setupUI()
     }
 
-
+    func setupUI() {
+        
+        setupConstraints()
+    }
+    
+    func setupConstraints() {
+        
+    }
 }
 
